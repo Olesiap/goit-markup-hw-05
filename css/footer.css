@@ -1,5 +1,5 @@
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
   color: #f4f4fd;
   display: block;
   padding: 100px 0;
@@ -48,5 +48,88 @@
 
 .footer-social-icon .social-icon-wrapper:hover,
 .footer-social-icon .social-icon-wrapper:focus {
-  background: #31d0aa;
+  background-color: #31d0aa;
+}
+
+.subscribe-block {
+  display: flex;
+  flex-direction: column;
+  width: 453px;
+  height: 80px;
+  margin: 0 15px 32px auto;
+}
+
+.subscribe {
+  display: inline-flex;
+  gap: 24px;
+  width: 453px;
+  height: 40px;
+}
+
+.subscribe label {
+  display: none;
+}
+
+.submit-button {
+  display: inline-flex;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  height: 40px;
+  max-width: 165px;
+  background-color: #4d5ae5;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+  transition: 250ms ease-in-out;
+  transition-property: background-color;
+}
+
+.subscribe-text {
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.send-icon {
+  fill: #fff;
+}
+
+.subscribe input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  outline: transparent;
+  transition: 250ms ease-in-out;
+  transition-property: color, border;
+}
+
+.subscribe input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe input:hover,
+.subscribe input:focus,
+.subscribe input:active {
+  border: 1px solid #31d0aa;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #31d0aa;
 }
