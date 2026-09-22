@@ -173,8 +173,12 @@
   letter-spacing: 0.04em;
   color: #8e8f99;
   width: 321px;
-  margin-top: 8px;
+  margin-top: 16px;
   margin-bottom: 24px;
+}
+
+.form-field:has(+ .form-field-policy) {
+  margin-bottom: 0;
 }
 
 .policy-checkbox-icon {
