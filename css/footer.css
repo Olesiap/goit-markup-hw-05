@@ -111,7 +111,7 @@
   letter-spacing: 0.04em;
   color: #fff;
   transition: 250ms ease-in-out;
-  transition-property: color, border-color;
+  transition-property: border-color;
 }
 
 .subscribe input::placeholder {
