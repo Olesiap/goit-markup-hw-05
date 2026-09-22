@@ -8,7 +8,7 @@
 .footer-wrapper {
   width: 264px;
   max-width: 264px;
-  margin: 0 120px 0 15px;
+  margin: 0 120px 0 0;
 }
 
 .footer .container {
@@ -56,7 +56,7 @@
   flex-direction: column;
   width: 453px;
   height: 80px;
-  margin: 0 15px 32px auto;
+  margin: 0 0 32px auto;
 }
 
 .subscribe {
@@ -104,8 +104,14 @@
   height: 40px;
   background-color: transparent;
   outline: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
   transition: 250ms ease-in-out;
-  transition-property: color, border;
+  transition-property: color, border-color;
 }
 
 .subscribe input::placeholder {
@@ -120,13 +126,7 @@
 .subscribe input:hover,
 .subscribe input:focus,
 .subscribe input:active {
-  border: 1px solid #31d0aa;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16667;
-  letter-spacing: 0.04em;
-  color: #fff;
+  border-color: #31d0aa;
 }
 
 .submit-button:hover,
